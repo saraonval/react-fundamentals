@@ -1,10 +1,6 @@
-.keys ul {
-  list-style: none;
-  padding-left: 0;
-}
-.keys li {
-  margin-top: 10px;
-  margin-bottom: 10px;
+.keys input {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .keys input:focus {
   outline: 6px solid #4bd2fb;
@@ -29,13 +25,12 @@
 .keys #pear-input {
   background-color: #bef171;
 }
-.keys #apple-input,
-.keys #orange-input,
-.keys #grape-input,
-.keys #pear-input {
-  margin-right: 10px;
-  margin-left: 10px;
+
+.keys li {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
+
 .keys [for='apple-input'],
 .keys [for='orange-input'],
 .keys [for='grape-input'],
@@ -43,12 +38,4 @@
   display: inline-block;
   width: 100px;
   text-align: right;
-}
-.keys [for*='key'] {
-  display: block;
-  margin-bottom: 6px;
-}
-.keys input[type='checkbox'] {
-  height: 16px;
-  width: 16px;
 }
